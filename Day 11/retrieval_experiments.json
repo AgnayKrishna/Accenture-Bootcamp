@@ -1,0 +1,1802 @@
+[
+  {
+    "extraction_mode": "plain",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 3,
+    "num_chunks": 335,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 11,
+    "questions_total": 17,
+    "phrases_found": 28,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "plain",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 5,
+    "num_chunks": 335,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 14,
+    "questions_total": 17,
+    "phrases_found": 31,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      }
+    ]
+  },
+  {
+    "extraction_mode": "plain",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 8,
+    "num_chunks": 335,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 15,
+    "questions_total": 17,
+    "phrases_found": 32,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 3,
+    "num_chunks": 337,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 11,
+    "questions_total": 17,
+    "phrases_found": 27,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          false,
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 5,
+    "num_chunks": 337,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 13,
+    "questions_total": 17,
+    "phrases_found": 30,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 512,
+    "chunk_overlap_chars": 50,
+    "top_k": 8,
+    "num_chunks": 337,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 15,
+    "questions_total": 17,
+    "phrases_found": 32,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1000,
+    "chunk_overlap_chars": 150,
+    "top_k": 3,
+    "num_chunks": 199,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 10,
+    "questions_total": 17,
+    "phrases_found": 25,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          false,
+          true,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q11",
+        "found": [
+          false,
+          true,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          false,
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q17",
+        "found": [
+          false,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1000,
+    "chunk_overlap_chars": 150,
+    "top_k": 5,
+    "num_chunks": 199,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 12,
+    "questions_total": 17,
+    "phrases_found": 29,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          false,
+          true,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q11",
+        "found": [
+          false,
+          true,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1000,
+    "chunk_overlap_chars": 150,
+    "top_k": 8,
+    "num_chunks": 199,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 15,
+    "questions_total": 17,
+    "phrases_found": 32,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1500,
+    "chunk_overlap_chars": 200,
+    "top_k": 3,
+    "num_chunks": 142,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 13,
+    "questions_total": 17,
+    "phrases_found": 29,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          false,
+          false,
+          true
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1500,
+    "chunk_overlap_chars": 200,
+    "top_k": 5,
+    "num_chunks": 142,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 16,
+    "questions_total": 17,
+    "phrases_found": 33,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  },
+  {
+    "extraction_mode": "layout",
+    "chunk_size_chars": 1500,
+    "chunk_overlap_chars": 200,
+    "top_k": 8,
+    "num_chunks": 142,
+    "embedding_model": "nomic-embed-text",
+    "questions_with_all_evidence": 16,
+    "questions_total": 17,
+    "phrases_found": 33,
+    "phrases_total": 34,
+    "per_question": [
+      {
+        "id": "q01",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q02",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q03",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q04",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q05",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q06",
+        "found": [
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q07",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q08",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q09",
+        "found": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q10",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q11",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q12",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q13",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q14",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q15",
+        "found": [
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q16",
+        "found": [
+          true,
+          true,
+          true
+        ],
+        "all_found": true
+      },
+      {
+        "id": "q17",
+        "found": [
+          true,
+          false
+        ],
+        "all_found": false
+      }
+    ]
+  }
+]

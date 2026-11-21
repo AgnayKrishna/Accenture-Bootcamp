@@ -1,0 +1,12 @@
+[project]
+name = "local-rag"
+version = "0.1.0"
+description = "Local document Q&A (RAG) with Ollama, ChromaDB and an OpenAI-compatible API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.0",
+    "langchain-text-splitters>=0.3.0",
+    "openai>=2.21.0",
+    "pypdf>=5.0.0",
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "q01",
+    "question": "How many days per week may an eligible employee work remotely under the employee handbook?",
+    "expected_answer": "Up to three days per week, subject to manager approval (employees still in their six-month probation may work remotely one day per week).",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["up to three (3) days per week"]
+  },
+  {
+    "id": "q02",
+    "question": "How many days of paid time off does a full-time employee get per calendar year?",
+    "expected_answer": "25 days of paid time off per calendar year, in addition to public holidays.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["twenty-five (25) days of paid time off"]
+  },
+  {
+    "id": "q03",
+    "question": "What was the Annual Recurring Revenue at the end of Q1 2026?",
+    "expected_answer": "EUR 18.2 million, up 23% year over year from EUR 14.8 million.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["reached EUR 18.2 million"]
+  },
+  {
+    "id": "q04",
+    "question": "What is the API rate limit in requests per minute for the Professional tier?",
+    "expected_answer": "1,000 requests per minute (burst limit 50 requests per second, 500,000 requests per day).",
+    "source_document": "product_guide.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["1,000 req/min"]
+  },
+  {
+    "id": "q05",
+    "question": "Within how many minutes must a P1 critical security incident be acknowledged after detection?",
+    "expected_answer": "Within 15 minutes of detection.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["P1 incidents require acknowledgment within 15 minutes"]
+  },
+  {
+    "id": "q06",
+    "question": "Who took the notes at the leadership team meetings?",
+    "expected_answer": "Aisha Patel, Head of HR.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "easy",
+    "type": "factual",
+    "evidence_phrases": ["Note-taker: Aisha Patel, Head of HR"]
+  },
+  {
+    "id": "q07",
+    "question": "What support hours and critical-issue response times do Starter, Professional and Enterprise customers get?",
+    "expected_answer": "Starter: 09:00-18:00 CET Monday to Friday, 4 hours for critical issues. Professional: 06:00-22:00 CET Monday to Friday, 1 hour for critical issues. Enterprise: 24/7 support with a dedicated support manager, 15 minutes for critical issues.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "comparison",
+    "evidence_phrases": ["Critical (service down)", "06:00 - 22:00 CET", "09:00 - 18:00 CET"]
+  },
+  {
+    "id": "q08",
+    "question": "What does the Professional bundle of ProjectHub and Insight cost per user per month with annual billing, and how much does that save compared with buying both Professional products separately on annual billing?",
+    "expected_answer": "The annual Professional bundle is EUR 112 per user per month. Buying both separately on annual billing is 2 x EUR 66 = EUR 132, so the bundle saves EUR 20 per user per month (about 15%).",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "calculation",
+    "evidence_phrases": ["€112/user/month", "€66/user/month"]
+  },
+  {
+    "id": "q09",
+    "question": "Which Enterprise accounts were flagged as at risk of non-renewal in Q1 2026, and what is their combined ARR?",
+    "expected_answer": "Gruber Manufacturing (EUR 178K, June 2026), Rheinland Utilities AG (EUR 148K, July 2026) and Alpen Logistics (EUR 94K, May 2026). Total at-risk ARR is EUR 420K, which is 2.3% of total ARR.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": ["Gruber", "Rheinland Utilities", "Alpen Logistics", "Total at-risk ARR: EUR 420K"]
+  },
+  {
+    "id": "q10",
+    "question": "If an employee loses a company laptop that has full-disk encryption, how soon must they report it, and how does the security policy classify the incident?",
+    "expected_answer": "The handbook requires reporting a lost or stolen device to IT within four hours of discovery (IT emergency hotline or it-security email). The security policy lists a laptop with full-disk encryption reported lost as a P4 (Low) incident, which must be acknowledged within 24 hours.",
+    "source_document": "company_handbook.pdf + security_policy.pdf",
+    "difficulty": "medium",
+    "type": "multi-document",
+    "evidence_phrases": ["within four (4) hours of discovery", "a laptop with full-disk encryption reported lost", "P4 incidents require acknowledgment within 24 hours"]
+  },
+  {
+    "id": "q11",
+    "question": "After a confirmed personal data breach, who must be notified within 2 hours, and what are the deadlines for notifying the supervisory authority and the affected individuals?",
+    "expected_answer": "The Security Operations Lead must notify the DPO and the General Counsel within 2 hours. The supervisory authority is notified within 72 hours of becoming aware of the breach. Affected individuals are notified without undue delay and no later than 7 days after it is determined that individual notification is required.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": ["notify the DPO and the General Counsel within 2 hours", "within 72 hours of becoming aware", "no later than 7 days"]
+  },
+  {
+    "id": "q12",
+    "question": "How much budget was approved for NovaTech Copilot, how is it broken down, and how will the engineering staffing be phased?",
+    "expected_answer": "EUR 1.2M in total: personnel EUR 780K (4 ML engineers and 1 PM for 12 months), infrastructure EUR 280K (GPU compute), external consulting and dataset licensing EUR 90K, contingency EUR 50K. Staffing is phased: 2 ML engineers starting in April, ramping to 4 by July.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "medium",
+    "type": "synthesis",
+    "evidence_phrases": ["Personnel (4 ML engineers, 1 PM", "2 ML engineers starting April, ramping to 4 by July"]
+  },
+  {
+    "id": "q13",
+    "question": "How often do employees have to change their passwords?",
+    "expected_answer": "The handbook (version dated January 2026) says every 90 days, but the leadership meeting of 5 March 2026 extended rotation to 180 days for employee user accounts, effective immediately. Infrastructure credentials stay on 90 days. So the current rule is 180 days for employee accounts, and the handbook is out of date on this point.",
+    "source_document": "company_handbook.pdf + meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": ["Password rotation is required every ninety (90) days", "Password rotation extended from 90 days to 180 days"]
+  },
+  {
+    "id": "q14",
+    "question": "What is the monthly price per user of the Professional tier?",
+    "expected_answer": "The product guide (January 2026) lists EUR 79 per user per month (EUR 66 billed annually). The February 2026 leadership notes quote EUR 59 per user per month as the current Professional price. The documents disagree; a good answer reports both and names the sources rather than picking one silently.",
+    "source_document": "product_guide.pdf + meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": ["€79/user/month", "Professional: EUR 59/user/month"]
+  },
+  {
+    "id": "q15",
+    "question": "How many remote days per week will employees be allowed from Q3 2026, and which in-office days are mandatory?",
+    "expected_answer": "Up to 4 remote days per week from Q3 2026 (up from 3). Tuesday is the mandatory company-wide in-office day. Department heads may require up to 2 in-office days with HR approval; Sales keeps Tuesday and Thursday.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "reasoning",
+    "evidence_phrases": ["up to 4 days remote per week, effective Q3 2026", "remains the mandatory in-office day"]
+  },
+  {
+    "id": "q16",
+    "question": "When did the Lisbon office open?",
+    "expected_answer": "The documents disagree. The Q1 2026 quarterly report says the Lisbon office opened on January 15, 2026 and had 22 staff at quarter end. The leadership meeting notes say the lease gave occupancy from April 1 and, in March, that the first employees were expected on-site April 14. A good answer reports both and names the sources.",
+    "source_document": "quarterly_report_q1_2026.pdf + meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": ["The Lisbon office opened on January 15, 2026", "occupancy starting April 1", "First employees expected to start on-site April 14"]
+  },
+  {
+    "id": "q17",
+    "question": "How quickly does the company erase personal data after a verified deletion request?",
+    "expected_answer": "The documents give different figures. The security policy says erasure requests are fulfilled within 30 days (subject to legal retention requirements). The product guide says personal data can be purged within 72 hours of a verified request. A good answer reports both and names the sources.",
+    "source_document": "security_policy.pdf + product_guide.pdf",
+    "difficulty": "hard",
+    "type": "conflicting-sources",
+    "evidence_phrases": ["Erasure requests are fulfilled within 30", "purged within 72 hours"]
+  },
+  {
+    "id": "q18",
+    "question": "Which vendor was selected to deliver the mandatory security awareness training?",
+    "expected_answer": "The documents do not say. The meeting notes only record that a vendor shortlist of three was to be prepared; no vendor is named.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable",
+    "evidence_phrases": []
+  },
+  {
+    "id": "q19",
+    "question": "What was NovaTech's actual revenue in Q2 2026?",
+    "expected_answer": "The documents do not contain Q2 2026 results. The Q1 report only mentions that the Q2 report is scheduled for July 14, 2026.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable",
+    "evidence_phrases": []
+  }
+]
